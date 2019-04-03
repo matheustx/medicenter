@@ -19,6 +19,17 @@ h1.display-4, p.lead {
   background-color: red;
 }
 
+.nav-link {
+  color: #727272;
+  -webkit-transition: 0.5s !important;
+  transition: 0.5s !important;
+}
+
+.nav-link:hover {
+  background-color: #00ABE3;
+  color: #ececec !important;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

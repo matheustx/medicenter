@@ -41,8 +41,18 @@ h1.display-4, p.lead{
 }
 
 
+.nav-link{
+    color: #727272;
+    transition: 0.5s !important;
+}
+
+.nav-link:hover{
+    background-color: $color7;
+    color: $color9 !important;
+}
 
 $enable-responsive-font-sizes: true !important;
 $enable-rounded: false;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+

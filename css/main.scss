@@ -1,0 +1,48 @@
+$color1: #4750B8;
+$color2: #5266C0;
+$color3: #6275CC;
+$color4: #7489CE;
+$color5: #8FA3D9;
+$color6: #AAB6D6;
+$color7: #00ABE3;
+$color8: #121417;
+$color9: #ececec;
+
+$theme-colors: (
+    'color1': $color1,
+    'color2': $color2,
+    'color3': $color3,
+    'color4': $color4,
+    'color5': $color5,
+    'color6': $color6,
+    'color7': $color7,
+    'color8': $color8,
+    'color9': $color9,
+);
+
+header{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    //height: 100vh;
+}
+.font-heith{
+    font-size: 0.9rem;
+}
+h1.display-4, p.lead{
+    text-shadow: rgba(148, 140, 140, 0.753) 1px 1px
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+
+
+$enable-responsive-font-sizes: true !important;
+$enable-rounded: false;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
